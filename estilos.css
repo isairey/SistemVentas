@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background: #141414;
+	animation: opacidad 1s alternate;
+}
+
+@keyframes opacidad{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+.activo{background: silver;}
+
+#white{
+	color: white;
+}
+
+#bottom{position:absolute; bottom:5px; right:10px;}
+
+#error, #error_confirmacion{
+	animation: opacidad 1s alternate;
+}
+
+nav{
+	z-index: 10;
+}
+
+.nav, #menu{
+	position: fixed;
+	z-index: 100;
+	background: rgba(0,0,0,0.4);
+	padding: 4px 8px;
+	color: white;
+	border-radius: 4px;
+	border: 1px solid white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: all .5s;
+}.nav, #menu:hover{background: white; color: black; transition: all .5s;}
+
+.transparent{
+	box-shadow: none;
+}
+
+nav div a i{
+	font-size: 15px;
+}
+
+video{
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+	z-index: -1;
+}
+
+.containerr{
+	background: rgba(0,0,0,0.5);
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+}
+.containerr img{
+	margin-top: 150px;
+}
+
+.espacio a{
+	margin: 10px;
+}
+
+.espacio .fondo{
+	background: transparent;
+	border: 1px solid #0d47a1;
+	border-radius: 3px;
+}.espacio .fondo:hover{background: #0d47a1;}
+
+#azul{
+	background: #0d47a1;
+ 	width: 100%;
+  	color: white;
+  	padding: 14px 20px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+  	transition: all .3s;
+}#azul:hover{
+	background: #093982;
+}
+
+#footer{
+	background: #1D1D1D;
+	border-top: 2px solid #0d47a1;
+}
+
+ul li:hover{
+	color: #ff9100;
+	transition: all .5s;
+}
+
+.imagen_iniciar_sesion{
+	background: url(../img/inicio/flv.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 700px;
+}
+#row{
+	margin-bottom: -20px;
+}
+
+.imagen_registrate{
+	background: url(../img/inicio/original.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+}
+.imagen_contacto{
+	background: url(../img/inicio/contacto.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#imagen_bg .texto{
+	padding: 20px 20px;
+	background: rgba(0,0,0,0.4);
+	height: 100%;
+}
