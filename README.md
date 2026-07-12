@@ -357,7 +357,9 @@ Este proyecto está distribuido bajo la licencia **MIT**, permitiendo su uso, mo
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Desarrollador
+
+**Isai Reyes - FullStack Developer**
 
 Desarrollado como un **Sistema Web de Punto de Venta (POS)** utilizando **PHP**, **MySQL**, **Bootstrap** y **JavaScript**, siguiendo una arquitectura modular y buenas prácticas de desarrollo para ofrecer una solución eficiente en la administración de negocios.
 
