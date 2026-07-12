@@ -149,7 +149,7 @@ El sistema permite gestionar ventas, productos, clientes, proveedores, compras, 
 # 📂 Estructura del Proyecto
 
 ```text
-PuntoVenta/
+SistemVenta/
 │
 ├── assets/
 │   ├── css/
@@ -208,13 +208,13 @@ PuntoVenta/
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/punto-venta.git
+git clone https://github.com/isairey/SistemVenta.git
 ```
 
 ## 2. Entrar al proyecto
 
 ```bash
-cd punto-venta
+cd SistemVenta
 ```
 
 ## 3. Copiar el proyecto al servidor local
