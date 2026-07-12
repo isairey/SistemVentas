@@ -273,7 +273,7 @@ $database = "puntoventa";
 Abrir el navegador:
 
 ```text
-http://localhost/punto-venta
+http://localhost/SistemVentas
 ```
 
 ---
