@@ -1,0 +1,15 @@
+package com.example.sismedico.enums;
+
+public enum EstadoCita {
+
+    PENDIENTE,
+
+    CONFIRMADA,
+
+    CANCELADA,
+
+    FINALIZADA,
+
+    REPROGRAMADA
+
+}
