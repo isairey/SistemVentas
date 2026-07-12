@@ -208,7 +208,7 @@ SistemVenta/
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/isairey/SistemVenta.git
+git clone https://github.com/isaireyesp1/SistemVenta.git
 ```
 
 ## 2. Entrar al proyecto
